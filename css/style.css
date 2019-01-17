@@ -1,0 +1,103 @@
+html {
+  background: url(../pics/background2.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed
+}
+
+
+h1 {
+  background-color: rgba(46, 178, 36,0.6);
+
+}
+
+
+
+
+body {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  width: 60%;
+  min-width: 400px;
+  margin: auto;
+
+
+}
+
+head {
+
+font-size: 100px;
+
+}
+
+
+.title {
+
+color: #30CBC6;
+font-size: 120px;
+margin: auto;
+min-width: 50px;
+text-align: center;
+
+}
+
+.category {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+
+.right{
+text-align: center;
+width: 130px;
+margin-left: auto;
+margin-right: 0;
+
+}
+
+
+
+.left{
+  text-align: center;
+  width: 120px;
+  margin-right: auto;
+  margin-left: 0;
+
+}
+
+.shirt {
+  width: 300px;
+}
+
+
+a.button2{
+ display:inline-block;
+ padding:0.5em 3em;
+ border:0.16em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ box-sizing: border-box;
+ text-decoration:none;
+ text-transform:uppercase;
+ font-family:'Roboto',sans-serif;
+ font-weight:400;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.15s;
+}
+a.button2:hover{
+ color:#DDDDDD;
+ border-color:#DDDDDD;
+}
+a.button2:active{
+ color:#BBBBBB;
+ border-color:#BBBBBB;
+}
+@media all and (max-width:30em){
+ a.button2{
+  display:block;
+  margin:0.4em auto;
+ }
+}
